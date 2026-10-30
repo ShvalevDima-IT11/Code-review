@@ -1,0 +1,59 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<documentation project="Лабораторная работа № 3" language="Python">
+<module name="task1_cities.py">
+<summary>По названию города определяет страну, в которой он находится.</summary>
+<function name="main">
+<summary>Считывает список стран и городов, затем обрабатывает три запроса.</summary>
+<returns type="None">Не возвращает значение; выводит ответы в консоль.</returns>
+</function>
+</module>
+<module name="task2_pizzeria.py">
+<summary>Объединяет повторные заказы одной и той же пиццы.</summary>
+<function name="main">
+<summary>Выводит покупателей и их пиццы в алфавитном порядке.</summary>
+<returns type="None">Не возвращает значение; выводит заказы в консоль.</returns>
+</function>
+</module>
+<module name="task3_guessing_game.py">
+<summary>Поддерживает множество чисел, которые Иван мог загадать.</summary>
+<function name="main">
+<summary>Обновляет множество по ответам «Да» и «Нет» до помощи или решения.</summary>
+<returns type="None">Не возвращает значение; выводит возможные числа.</returns>
+</function>
+</module>
+<module name="task4_family_tree.py">
+<summary>Вычисляет высоту каждого человека в генеалогическом дереве.</summary>
+<function name="get_height">
+<summary>Рекурсивно вычисляет высоту и сохраняет результат в кеше.</summary>
+<param name="person" type="str">Имя человека.</param>
+<param name="parents" type="dict[str, str]">Сопоставление потомков и родителей.</param>
+<param name="heights" type="dict[str, int]">Кеш уже вычисленных высот.</param>
+<returns type="int">Высоту человека относительно родоначальника.</returns>
+</function>
+<function name="main">
+<summary>Считывает родственные связи и печатает высоты по алфавиту.</summary>
+<returns type="None">Не возвращает значение; выводит результат в консоль.</returns>
+</function>
+</module>
+<module name="task5_english_words.py">
+<summary>Проверяет переводы слов и выставляет итоговую оценку.</summary>
+<constant name="GRADE_THRESHOLDS" type="dict[int, float]">
+<summary>Пороговые проценты для оценок; значения приняты условно.</summary>
+</constant>
+<function name="read_words">
+<summary>Читает файл и удаляет пробельные символы по краям каждой строки.</summary>
+<param name="file_path" type="str">Путь к файлу.</param>
+<returns type="list[str]">Список слов.</returns>
+<raises type="OSError">Если файл невозможно открыть или прочитать.</raises>
+</function>
+<function name="get_grade">
+<summary>Определяет оценку в соответствии с заданными в программе порогами.</summary>
+<param name="percentage" type="float">Процент правильных ответов.</param>
+<returns type="int">Оценку от 2 до 5.</returns>
+</function>
+<function name="main">
+<summary>Проводит тестирование, считает процент правильных ответов и оценку.</summary>
+<returns type="None">Не возвращает значение; выводит результаты в консоль.</returns>
+</function>
+</module>
+</documentation>
